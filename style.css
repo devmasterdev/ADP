@@ -1,0 +1,100 @@
+body {
+  overflow-y:hidden;
+  overflow-y:scroll;
+}
+
+.fixed-background {
+	position: fixed;
+	margin-top: 14em;
+}
+
+.navbarstatic {
+	  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  padding: 0.01rem;
+  width: 100%;
+  background-color: none;
+  text-align: center;
+}
+
+.nav-top {
+	position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  padding: 0.01rem;
+  width: 100%;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.logo-placement{
+padding-top: 4%;
+padding-bottom: 4%
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: center;
+  horizontal-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+.box {
+border-top: solid lightgrey;
+color: #000;
+}
+
+.box:hover {border-top: solid #804200;}
+
+.brownfont:hover {color: #804200;}
+
+.navfont {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 0.9em;
+}
+
+.fancyfont {
+	font-family:'Dancing Script', cursive;
+	font-size: 1.5em;
+}
+
+.greytext{
+	color:grey;
+}
+
+.footertext {
+	font-family: 'PT Sans', sans-serif; 
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.01rem;
+  width: 100%;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.navbar-nav > li{
+  margin-left:1em;
+  margin-right:1em;
+  width:9em;
+}
+
+.nav li a:hover {
+background-color: beige;
+}
+ul {
+position: fixed:center;
+    top: 10;
+
+}
